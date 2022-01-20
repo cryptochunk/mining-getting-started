@@ -33,14 +33,14 @@ Once you’ve successfully collected all the [hardware components](https://githu
 14) Power on the new rig and press “Delete” or “F2” to enter setup.
 
 15) Go through the options and enable “Above 4G decoding”. 
-	- Google this for your Mobo.
+	- Google this for your Motherboard.
 
-16) Enable integrated Graphics in the bios. - Google this for your Mobo.
+16) Enable integrated Graphics in the bios. - Google this for your Motherboard.
 
-17) Set Restore on AC/Power Loss to Power On. - Google this for your Mobo.
+17) Set Restore on AC/Power Loss to Power On. - Google this for your Motherboard.
 
 18) Set the boot sequence to boot from external USB first then SSD 
-	- Google this for your Mobo.
+	- Google this for your Motherboard.
 
 19) Plug in the windows installation USB to any USB port in the Mobo.
 
