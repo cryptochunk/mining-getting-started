@@ -1,0 +1,74 @@
+*Hardware Needed*
+An ok motherboard with at least 3 PCIe slots, Asus Steel Legend or ASRock. = 10,000
+A CPU(Processor) with integrated graphics 
+and RAM (8GB) is more than enough.- 5,500+3,500 = 9,000
+Get a 120GB cheap SSD = 1,500
+640W Power Supply = 3,800
+Monitor = 5,000
+Keyboard and Mouse = 1,000
+Graphics Card (This is the most important) 4x2060 for 50k = 2,00,000
+GPU Risers - 800x4 = 3,200
+Riser Power Cable = 1,200
+Wooden Rig = 250
+Motherboard power switch = 40
+USB Pendrive = 300
+Total = 35,290 + 2,00,000 = 2,35,290.00
+
+Steps
+Install the CPU in the motherboard. | Or get this done in the shop you buy and test it.
+Install the fan on the CPU. | Or get this done in the shop where you buy and test it.
+Get the power supply, Connect the 12 pin power cable to the motherboard.
+Plug the CPU power connector in the motherboard.
+Connect the SSD to the motherboard with the SATA cable.
+Connect the SATA power cable to the SSD from the power supply.
+Connect the power switch to the motherboard.
+Connect the monitor to the motherboard.
+Connect Keyboard and Mouse.
+Connect all GPU risers to the motherboard.
+Do not use the SATA power cable that comes with the PCIe riser.
+Attach the GPU/Riser power cable to the PCIe 6pin male connector and power the riser.
+Use another computer/laptop and prepare the USB for windows installation.
+Power on the new rig and press “Delete” or “F2” to enter setup.
+Go through the options and enable “Above 4G decoding”. 
+	- Google this for your Mobo.
+Enable integrated Graphics in the bios. - Google this for your Mobo.
+Set Restore on AC/Power Loss to Power On. - Google this for your Mobo.
+Set the boot sequence to boot from external USB first then SSD 
+	- Google this for your Mobo.
+Plug in the windows installation USB to any USB port in the Mobo.
+Save and exit from the Mobo BIOS. This should reboot to the Windows installation screen.
+Make sure you are not connected to the internet during the windows installation.
+Install Windows, use the whole SSD.
+Use a local account.
+After installing Windows, download and install 
+Nvidia drivers.
+MSI afterburner.
+Create a folder in the Desktop and rename it to Mining
+Click Start → type “Virus and Threat” Select “Manage Settings”, Under Exclusions select “Add or remove exclusions” click Folder and select the Mining folder in the desktop.
+Download NBminer from this - https://github.com/NebuTech/NBMiner/releases/download/v40.1/NBMiner_40.1_Win.zip
+Move NBminer to the Mining folder in the desktop and unzip it.
+Shutdown the machine and Install the GPUs in the risers and connect the power cables to the GPUs.
+Power on the machine and boot to windows.
+Click start and type device manager, open device manager and ensure you can see all your GPUs listed under Display adapters. If you cannot see all your GPUs,
+Shutdown the machine, unplug from power and
+Ensure the GPU is seated properly in the riser.
+The power cables are connected firmly.
+The PCIe 1x card is connected firmly in the motherboard.
+The USB cable is connected firmly in the PCIe1x card and in the riser.
+To create an Ethereum wallet address.
+Create an account in Kucoin or Binance.
+Or use a wallet app like - Exodus or Metamask.
+Get the ETH address.
+Goto the mining folder in your desktop, goto NBMiner folder.
+Right click on the start_eth.bat and click edit.
+Delete the long hexadecimal value after -u and paste your ETH address.
+Change from the default pool by removing the value after -o and before -u and replace it with - asia-eth.2miners.com:2020
+Double click start_eth.bat this should start mining ethereum now.
+Disable the login screen -  Google “Disable login screen windows 10” and follow the steps.
+To make sure mining starts after booting automatically
+Click Start, type run, open the run window and paste this, make sure to replace <user> with what you see in C:\Users.
+C:\Users\<user>\Appdata\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+Right click on start_eth.bat and select copy
+In the startup folder, right click and select paste shortcut.
+Overclock the GPU, Save the changes, and enable start on boot in MSI Afterburner.
+To monitor the performance install minerstat.
