@@ -44,7 +44,7 @@ Once you’ve successfully collected all the [hardware components](https://githu
 
 19) Plug in the windows installation USB to any USB port in the Mobo.
 
-20) Save and exit from the Mobo BIOS. This should reboot to the Windows installation screen.
+20) Save and exit from the Motherboard BIOS. This should reboot to the Windows installation screen.
 
 21) Make sure you are not connected to the internet during the windows installation.
 
